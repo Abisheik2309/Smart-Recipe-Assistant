@@ -396,3 +396,11 @@ st.markdown(
     f'<p style="text-align:center; color:#aaa; font-size:0.8rem; margin-top:2rem;">{strings["footer_note"]}</p>',
     unsafe_allow_html=True,
 )
+{
+  "servers": {
+    "n8n": {
+      "type": "http",
+      "url": "https://jackdaniels.app.n8n.cloud/mcp-server/http"
+    }
+  }
+}
